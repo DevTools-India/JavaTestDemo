@@ -9,9 +9,19 @@ public class MySum {
 		}
 		return output;
 	}
-
+	
+	static int addNumbers (int a, int b) {
+		return a + b;
+	}
+	
 	public static void main(String[] args) {
 		int numbers = Integer.parseInt(args[0]);
-		System.out.println(sumofnumbers(numbers));	
+		System.out.println(sumofnumbers(numbers));
+		
+		
+		
+		
+		
+		
 	}
 }
